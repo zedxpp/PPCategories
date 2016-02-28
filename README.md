@@ -15,10 +15,12 @@ ___
  * hmacSHA1 hmacSHA256 hmacSHA512
 
 
+
 * 获取当前路径的文件大小
 * 获取 Cache 路径的完整路径地址
 * 获取 Documents 路径的完整路径地址
 * 获取 Tmp 路径的完整路径地址
+
 
 
 * 将 NSTimeInterval 转换为分钟和秒钟格式化输出
