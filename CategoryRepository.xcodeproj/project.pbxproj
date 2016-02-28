@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3339F1ED1C82E30F0034C24E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F1EC1C82E30F0034C24E /* AppDelegate.m */; };
+		33387D711C82F27600F06976 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33387D701C82F27600F06976 /* AppDelegate.m */; };
 		3339F2031C82E30F0034C24E /* CategoryRepositoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2021C82E30F0034C24E /* CategoryRepositoryTests.m */; };
 		3339F20E1C82E30F0034C24E /* CategoryRepositoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F20D1C82E30F0034C24E /* CategoryRepositoryUITests.m */; };
 		3339F2221C82E4F70034C24E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3339F21D1C82E4F70034C24E /* Assets.xcassets */; };
 		3339F2231C82E4F70034C24E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3339F21E1C82E4F70034C24E /* Info.plist */; };
 		3339F2241C82E4F70034C24E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F21F1C82E4F70034C24E /* main.m */; };
 		3339F2251C82E4F70034C24E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2211C82E4F70034C24E /* ViewController.m */; };
+		3339F22B1C82E8940034C24E /* NSString+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F22A1C82E8940034C24E /* NSString+PPExtension.m */; };
+		3339F2381C82EBE70034C24E /* NSDate+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2341C82EBE70034C24E /* NSDate+PPExtension.m */; };
+		3339F2391C82EBE70034C24E /* UIView+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2371C82EBE70034C24E /* UIView+PPExtension.m */; };
+		3339F23D1C82ECF20034C24E /* UIImage+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F23C1C82ECF20034C24E /* UIImage+PPExtension.m */; };
+		3339F2411C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2401C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33387D6E1C82F21F00F06976 /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		33387D6F1C82F27600F06976 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33387D701C82F27600F06976 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3339F1E51C82E30F0034C24E /* CategoryRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3339F1EB1C82E30F0034C24E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3339F1EC1C82E30F0034C24E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3339F1FE1C82E30F0034C24E /* CategoryRepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3339F2021C82E30F0034C24E /* CategoryRepositoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryRepositoryTests.m; sourceTree = "<group>"; };
 		3339F2041C82E30F0034C24E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +54,16 @@
 		3339F21F1C82E4F70034C24E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3339F2201C82E4F70034C24E /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3339F2211C82E4F70034C24E /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3339F2291C82E8940034C24E /* NSString+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PPExtension.h"; sourceTree = "<group>"; };
+		3339F22A1C82E8940034C24E /* NSString+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPExtension.m"; sourceTree = "<group>"; };
+		3339F2331C82EBE70034C24E /* NSDate+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+PPExtension.h"; sourceTree = "<group>"; };
+		3339F2341C82EBE70034C24E /* NSDate+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+PPExtension.m"; sourceTree = "<group>"; };
+		3339F2361C82EBE70034C24E /* UIView+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PPExtension.h"; sourceTree = "<group>"; };
+		3339F2371C82EBE70034C24E /* UIView+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PPExtension.m"; sourceTree = "<group>"; };
+		3339F23B1C82ECF20034C24E /* UIImage+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PPExtension.h"; sourceTree = "<group>"; };
+		3339F23C1C82ECF20034C24E /* UIImage+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PPExtension.m"; sourceTree = "<group>"; };
+		3339F23F1C82F0AD0034C24E /* UIBarButtonItem+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PPExtension.h"; sourceTree = "<group>"; };
+		3339F2401C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PPExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +91,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33387D6D1C82F21F00F06976 /* SingleClass */ = {
+			isa = PBXGroup;
+			children = (
+				33387D6E1C82F21F00F06976 /* Single.h */,
+			);
+			path = SingleClass;
+			sourceTree = "<group>";
+		};
 		3339F1DC1C82E30F0034C24E = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				3339F21B1C82E4F70034C24E /* Category */,
-				3339F1EB1C82E30F0034C24E /* AppDelegate.h */,
-				3339F1EC1C82E30F0034C24E /* AppDelegate.m */,
 				3339F21C1C82E4F70034C24E /* Other */,
 				3339F1E81C82E30F0034C24E /* Supporting Files */,
 			);
@@ -135,6 +157,12 @@
 		3339F21B1C82E4F70034C24E /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3339F2281C82E8860034C24E /* NSString */,
+				3339F2351C82EBE70034C24E /* UIView */,
+				3339F23A1C82ECD90034C24E /* UIImage */,
+				3339F2321C82EBE70034C24E /* NSDate */,
+				3339F23E1C82F0A60034C24E /* UIBarButtonItem */,
+				33387D6D1C82F21F00F06976 /* SingleClass */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -142,13 +170,60 @@
 		3339F21C1C82E4F70034C24E /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				3339F21D1C82E4F70034C24E /* Assets.xcassets */,
-				3339F21E1C82E4F70034C24E /* Info.plist */,
-				3339F21F1C82E4F70034C24E /* main.m */,
+				33387D6F1C82F27600F06976 /* AppDelegate.h */,
+				33387D701C82F27600F06976 /* AppDelegate.m */,
 				3339F2201C82E4F70034C24E /* ViewController.h */,
 				3339F2211C82E4F70034C24E /* ViewController.m */,
+				3339F21F1C82E4F70034C24E /* main.m */,
+				3339F21E1C82E4F70034C24E /* Info.plist */,
+				3339F21D1C82E4F70034C24E /* Assets.xcassets */,
 			);
 			path = Other;
+			sourceTree = "<group>";
+		};
+		3339F2281C82E8860034C24E /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				3339F2291C82E8940034C24E /* NSString+PPExtension.h */,
+				3339F22A1C82E8940034C24E /* NSString+PPExtension.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		3339F2321C82EBE70034C24E /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				3339F2331C82EBE70034C24E /* NSDate+PPExtension.h */,
+				3339F2341C82EBE70034C24E /* NSDate+PPExtension.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		3339F2351C82EBE70034C24E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				3339F2361C82EBE70034C24E /* UIView+PPExtension.h */,
+				3339F2371C82EBE70034C24E /* UIView+PPExtension.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		3339F23A1C82ECD90034C24E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				3339F23B1C82ECF20034C24E /* UIImage+PPExtension.h */,
+				3339F23C1C82ECF20034C24E /* UIImage+PPExtension.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		3339F23E1C82F0A60034C24E /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				3339F23F1C82F0AD0034C24E /* UIBarButtonItem+PPExtension.h */,
+				3339F2401C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m */,
+			);
+			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,9 +355,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3339F23D1C82ECF20034C24E /* UIImage+PPExtension.m in Sources */,
 				3339F2251C82E4F70034C24E /* ViewController.m in Sources */,
+				3339F22B1C82E8940034C24E /* NSString+PPExtension.m in Sources */,
+				3339F2391C82EBE70034C24E /* UIView+PPExtension.m in Sources */,
+				33387D711C82F27600F06976 /* AppDelegate.m in Sources */,
 				3339F2241C82E4F70034C24E /* main.m in Sources */,
-				3339F1ED1C82E30F0034C24E /* AppDelegate.m in Sources */,
+				3339F2381C82EBE70034C24E /* NSDate+PPExtension.m in Sources */,
+				3339F2411C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +483,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				INFOPLIST_FILE = CategoryRepository/Info.plist;
+				INFOPLIST_FILE = CategoryRepository/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Swift520.CategoryRepository;
@@ -417,7 +497,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
-				INFOPLIST_FILE = CategoryRepository/Info.plist;
+				INFOPLIST_FILE = CategoryRepository/Other/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Swift520.CategoryRepository;
@@ -493,6 +573,7 @@
 				3339F2141C82E30F0034C24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3339F2151C82E30F0034C24E /* Build configuration list for PBXNativeTarget "CategoryRepositoryTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +582,7 @@
 				3339F2171C82E30F0034C24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3339F2181C82E30F0034C24E /* Build configuration list for PBXNativeTarget "CategoryRepositoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +591,7 @@
 				3339F21A1C82E30F0034C24E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
