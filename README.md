@@ -11,9 +11,11 @@ ___
 > NSString
 
 * 字符串加密
- * md5 sha1 sha256 sha512
- * hmacSHA1 hmacSHA256 hmacSHA512
 
+```objc
+ md5 sha1 sha256 sha512
+ hmacSHA1 hmacSHA256 hmacSHA512
+```
 
 
 * 获取当前路径的文件大小
