@@ -19,6 +19,8 @@
 		3339F2391C82EBE70034C24E /* UIView+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2371C82EBE70034C24E /* UIView+PPExtension.m */; };
 		3339F23D1C82ECF20034C24E /* UIImage+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F23C1C82ECF20034C24E /* UIImage+PPExtension.m */; };
 		3339F2411C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3339F2401C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m */; };
+		33DFAFD31CF6EC6B0099863A /* PPBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DFAFD01CF6EC6B0099863A /* PPBadgeView.m */; };
+		33DFAFD41CF6EC6B0099863A /* UITabBar+PPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DFAFD21CF6EC6B0099863A /* UITabBar+PPBadge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,10 @@
 		3339F23C1C82ECF20034C24E /* UIImage+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PPExtension.m"; sourceTree = "<group>"; };
 		3339F23F1C82F0AD0034C24E /* UIBarButtonItem+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PPExtension.h"; sourceTree = "<group>"; };
 		3339F2401C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PPExtension.m"; sourceTree = "<group>"; };
+		33DFAFCF1CF6EC6B0099863A /* PPBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBadgeView.h; sourceTree = "<group>"; };
+		33DFAFD01CF6EC6B0099863A /* PPBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPBadgeView.m; sourceTree = "<group>"; };
+		33DFAFD11CF6EC6B0099863A /* UITabBar+PPBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+PPBadge.h"; sourceTree = "<group>"; };
+		33DFAFD21CF6EC6B0099863A /* UITabBar+PPBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+PPBadge.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +168,7 @@
 				3339F23A1C82ECD90034C24E /* UIImage */,
 				3339F2321C82EBE70034C24E /* NSDate */,
 				3339F23E1C82F0A60034C24E /* UIBarButtonItem */,
+				33DFAFCE1CF6EC6B0099863A /* UITabBar */,
 				33387D6D1C82F21F00F06976 /* SingleClass */,
 			);
 			path = Category;
@@ -224,6 +231,17 @@
 				3339F2401C82F0AD0034C24E /* UIBarButtonItem+PPExtension.m */,
 			);
 			path = UIBarButtonItem;
+			sourceTree = "<group>";
+		};
+		33DFAFCE1CF6EC6B0099863A /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				33DFAFCF1CF6EC6B0099863A /* PPBadgeView.h */,
+				33DFAFD01CF6EC6B0099863A /* PPBadgeView.m */,
+				33DFAFD11CF6EC6B0099863A /* UITabBar+PPBadge.h */,
+				33DFAFD21CF6EC6B0099863A /* UITabBar+PPBadge.m */,
+			);
+			path = UITabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,7 +374,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3339F23D1C82ECF20034C24E /* UIImage+PPExtension.m in Sources */,
+				33DFAFD41CF6EC6B0099863A /* UITabBar+PPBadge.m in Sources */,
 				3339F2251C82E4F70034C24E /* ViewController.m in Sources */,
+				33DFAFD31CF6EC6B0099863A /* PPBadgeView.m in Sources */,
 				3339F22B1C82E8940034C24E /* NSString+PPExtension.m in Sources */,
 				3339F2391C82EBE70034C24E /* UIView+PPExtension.m in Sources */,
 				33387D711C82F27600F06976 /* AppDelegate.m in Sources */,
