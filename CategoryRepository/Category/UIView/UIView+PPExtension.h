@@ -12,16 +12,29 @@
 
 @interface UIView (PPExtension)
 
-@property (nonatomic, assign) CGFloat x;
-@property (nonatomic, assign) CGFloat y;
-@property (nonatomic, assign) CGFloat width;
-@property (nonatomic, assign) CGFloat height;
-@property (nonatomic, assign) CGFloat centerX;
-@property (nonatomic, assign) CGFloat centerY;
+@property (nonatomic, assign) CGFloat pp_x;
+@property (nonatomic, assign) CGFloat pp_y;
+@property (nonatomic, assign) CGFloat pp_width;
+@property (nonatomic, assign) CGFloat pp_height;
+@property (nonatomic, assign) CGFloat pp_centerX;
+@property (nonatomic, assign) CGFloat pp_centerY;
 
-@property (nonatomic, assign) CGFloat left;
-@property (nonatomic, assign) CGFloat right;
-@property (nonatomic, assign) CGFloat top;
-@property (nonatomic, assign) CGFloat bottom;
+@property (nonatomic, assign) CGPoint pp_origin;
+@property (nonatomic, assign) CGSize pp_size;
+
+@property (nonatomic, assign) CGFloat pp_left;
+@property (nonatomic, assign) CGFloat pp_right;
+@property (nonatomic, assign) CGFloat pp_top;
+@property (nonatomic, assign) CGFloat pp_bottom;
+
+/**
+ *  设置导航栏标题
+ */
++ (UIView *)viewWithNavTitle:(NSString *)text;
+
+/**
+ *  获取当前view所在的控制器
+ */
+- (UIViewController *)viewController;
 
 @end

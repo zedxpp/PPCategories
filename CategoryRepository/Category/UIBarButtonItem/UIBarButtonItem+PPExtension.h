@@ -12,10 +12,17 @@
 
 @interface UIBarButtonItem (PPExtension)
 
-/**
- *  快速生成UIBarButtonItem类方法
- */
-+ (instancetype)itemWithImage:(NSString *)image highlightedImage:(NSString *)highlightedImage target:(id)target action:(SEL)action;
++ (instancetype)itemWithNilItem;
+
++ (instancetype)itemWithTarget:(id)target action:(SEL)action;
+
++ (instancetype)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action;
+
++ (instancetype)itemWithImage:(NSString *)image target:(id)target action:(SEL)action;
+
++ (instancetype)itemWithNormalImage:(NSString *)normalImage target:(id)target action:(SEL)action title:(NSString *)title;
+
++ (instancetype)itemWithNormalImage:(NSString *)normalImage highlightedImage:(NSString *)highlightedImage target:(id)target action:(SEL)action title:(NSString *)title;
 
 @end
 

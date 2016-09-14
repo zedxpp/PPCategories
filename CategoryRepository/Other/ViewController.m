@@ -9,6 +9,7 @@
 //  博客地址: http://Swift520.com
 
 #import "ViewController.h"
+#import "UITabBar+PPBadge.h"
 
 @interface ViewController ()
 
@@ -19,7 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    self.view.backgroundColor = [UIColor redColor];
+//    self.view.backgroundColor = [UIColor redColor];
+//    NSLog(@"%@", self.tabBarController.tabBar.selectedItem);
+//    [self.tabBarController.tabBar showBadgeOnItemIndex:0];
 }
 
 - (void)didReceiveMemoryWarning {

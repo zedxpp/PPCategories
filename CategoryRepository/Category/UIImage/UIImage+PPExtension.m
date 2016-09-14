@@ -42,6 +42,12 @@
     return image;
 }
 
++ (instancetype)imageWithURLString:(NSString *)urlString
+{
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSData *data = [NSData dataWithContentsOfURL:url];
+    return [UIImage imageWithData:data];
+}
 
 
 

@@ -15,3 +15,4 @@
 - (void)hideBadgeOnItemIndex:(NSInteger)index;
 
 @end
+

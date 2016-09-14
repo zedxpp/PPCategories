@@ -12,119 +12,166 @@
 
 @implementation UIView (PPExtension)
 
-- (CGFloat)x
+#pragma mark - 类拓展
++ (UIView *)viewWithNavTitle:(NSString *)text
+{
+    UILabel *label = [[UILabel alloc] init];
+    label.text = text;
+    label.textColor = [UIColor whiteColor];
+    [label sizeToFit];
+    return label;
+}
+
+- (UIViewController *)viewController {
+    UIResponder *responder = [self nextResponder];
+    while (responder) {
+        
+        if ([responder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)responder;
+        }
+        responder = [responder nextResponder];
+    }
+    return nil;
+}
+
+#pragma mark - 坐标自定义
+- (CGFloat)pp_x
 {
     return self.frame.origin.x;
 }
 
-- (void)setX:(CGFloat)x
+- (void)setPp_x:(CGFloat)pp_x
 {
     CGRect frame = self.frame;
-    frame.origin.x = x;
+    frame.origin.x = pp_x;
     self.frame = frame;
 }
 
-- (CGFloat)y
+- (CGFloat)pp_y
 {
     return self.frame.origin.y;
 }
 
-- (void)setY:(CGFloat)y
+- (void)setPp_y:(CGFloat)pp_y
 {
     CGRect frame = self.frame;
-    frame.origin.y = y;
+    frame.origin.y = pp_y;
     self.frame = frame;
 }
 
-- (CGFloat)width
+- (CGFloat)pp_width
 {
     return self.frame.size.width;
 }
 
-- (void)setWidth:(CGFloat)width
+- (void)setPp_width:(CGFloat)pp_width
 {
     CGRect frame = self.frame;
-    frame.size.width = width;
+    frame.size.width = pp_width;
     self.frame = frame;
 }
 
-- (CGFloat)height
+- (CGFloat)pp_height
 {
     return self.frame.size.height;
 }
 
-- (void)setHeight:(CGFloat)height
+- (void)setPp_height:(CGFloat)pp_height
 {
     CGRect frame = self.frame;
-    frame.size.height = height;
+    frame.size.height = pp_height;
     self.frame = frame;
 }
 
-- (CGFloat)centerX
+- (CGFloat)pp_centerX
 {
     return self.center.x;
 }
 
-- (void)setCenterX:(CGFloat)centerX
+- (void)setPp_centerX:(CGFloat)pp_centerX
 {
     CGPoint center = self.center;
-    center.x = centerX;
+    center.x = pp_centerX;
     self.center = center;
 }
 
-- (CGFloat)centerY
+- (CGFloat)pp_centerY
 {
     return self.center.y;
 }
 
-- (void)setCenterY:(CGFloat)centerY
+- (void)setPp_centerY:(CGFloat)pp_centerY
 {
     CGPoint center = self.center;
-    center.y = centerY;
+    center.y = pp_centerY;
     self.center = center;
 }
 
-- (CGFloat)left
+- (CGFloat)pp_left
 {
-    return self.x;
+    return self.pp_x;
 }
 
-- (void)setLeft:(CGFloat)left
+- (void)setPp_left:(CGFloat)pp_left
 {
-    self.x = left;
+    self.pp_x = pp_left;
 }
 
-- (CGFloat)right
+- (CGFloat)pp_right
 {
     return CGRectGetMaxX(self.frame);
 }
 
-- (void)setRight:(CGFloat)right
+- (void)setPp_right:(CGFloat)pp_right
 {
     CGRect frame = self.frame;
-    frame.origin.x = right - frame.size.width;
+    frame.origin.x = pp_right - frame.size.width;
     self.frame = frame;
 }
 
-- (CGFloat)top
+- (CGFloat)pp_top
 {
-    return self.y;
+    return self.pp_y;
 }
 
-- (void)setTop:(CGFloat)top
+- (void)setPp_top:(CGFloat)pp_top
 {
-    self.y = top;
+    self.pp_y = pp_top;
 }
 
-- (CGFloat)bottom
+- (CGFloat)pp_bottom
 {
     return CGRectGetMaxY(self.frame);
 }
 
-- (void)setBottom:(CGFloat)bottom
+- (void)setPp_bottom:(CGFloat)pp_bottom
 {
     CGRect frame = self.frame;
-    frame.origin.y = bottom - frame.size.height;
+    frame.origin.y = pp_bottom - frame.size.height;
+    self.frame = frame;
+}
+
+- (CGPoint)pp_origin
+{
+    return self.frame.origin;
+}
+
+- (void)setPp_origin:(CGPoint)pp_origin
+{
+    CGRect frame = self.frame;
+    frame.origin = pp_origin;
+    self.frame = frame;
+}
+
+- (CGSize)pp_size
+{
+    return self.frame.size;
+}
+
+- (void)setPp_size:(CGSize)pp_size
+{
+    CGRect frame = self.frame;
+    frame.size = pp_size;
     self.frame = frame;
 }
 

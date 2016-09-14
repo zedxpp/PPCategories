@@ -150,4 +150,15 @@
     return [NSString stringWithFormat:@"%02ld:%02ld", min, second];
 }
 
+- (CGFloat)stringHeightWithTextMaxW:(CGFloat)textMaxW fontSize:(CGFloat)fontSize
+{
+    return [self boundingRectWithSize:CGSizeMake(textMaxW, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil].size.height;
+}
+
+- (CGFloat)stringWidthWithFontSize:(CGFloat)fontSize
+{
+    return [self boundingRectWithSize:CGSizeMake(MAXFLOAT, fontSize) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil].size.width;
+}
+
+
 @end

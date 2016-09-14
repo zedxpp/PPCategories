@@ -9,6 +9,7 @@
 //  博客地址: http://Swift520.com
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface NSString (PPExtension)
 
@@ -47,5 +48,18 @@
  *  将 NSTimeInterval 转换为分钟和秒钟格式化输出
  */
 + (NSString *)stringWithFormatTime:(NSTimeInterval)time;
+
+/**
+ *  根据文字宽度和字体大小获取文字高度
+ *
+ *  @param textMaxW 文字最大宽度
+ *  @param fontSize 字体大小
+ */
+- (CGFloat)stringHeightWithTextMaxW:(CGFloat)textMaxW fontSize:(CGFloat)fontSize;
+
+/**
+ *  根据字体大小获取文字宽度
+ */
+- (CGFloat)stringWidthWithFontSize:(CGFloat)fontSize;
 
 @end

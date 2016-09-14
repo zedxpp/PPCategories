@@ -23,5 +23,9 @@
 + (instancetype)circleImageNamed:(NSString *)name;
 - (instancetype)circleImage;
 
+/**
+ *  根据URL字符串下载图片
+ */
++ (instancetype)imageWithURLString:(NSString *)urlString;
 
 @end

@@ -26,6 +26,8 @@ ___
 
 
 * 将 NSTimeInterval 转换为分钟和秒钟格式化输出
+* 根据文字宽度和字体大小获取文字高度
+* 根据字体大小获取文字宽度
 
 ___
 
@@ -34,17 +36,25 @@ ___
 * 让UI控件直接访问Frame(CGRect)结构体内部
 
 ```objc
-@property (nonatomic, assign) CGFloat x;
-@property (nonatomic, assign) CGFloat y;
-@property (nonatomic, assign) CGFloat width;
-@property (nonatomic, assign) CGFloat height;
-@property (nonatomic, assign) CGFloat centerX;
-@property (nonatomic, assign) CGFloat centerY;
+@property (nonatomic, assign) CGFloat pp_x;
+@property (nonatomic, assign) CGFloat pp_y;
+@property (nonatomic, assign) CGFloat pp_width;
+@property (nonatomic, assign) CGFloat pp_height;
+@property (nonatomic, assign) CGFloat pp_centerX;
+@property (nonatomic, assign) CGFloat pp_centerY;
 
-@property (nonatomic, assign) CGFloat left;
-@property (nonatomic, assign) CGFloat right;
-@property (nonatomic, assign) CGFloat top;
-@property (nonatomic, assign) CGFloat bottom;
+@property (nonatomic, assign) CGPoint pp_origin;
+@property (nonatomic, assign) CGSize pp_size;
+
+@property (nonatomic, assign) CGFloat pp_left;
+@property (nonatomic, assign) CGFloat pp_right;
+@property (nonatomic, assign) CGFloat pp_top;
+@property (nonatomic, assign) CGFloat pp_bottom;
+
+* 设置导航栏标题
+* 获取当前view所在的控制器
+
+
 ```
 
 ___
@@ -53,6 +63,7 @@ ___
 
 * 传入无需系统自动渲染的图片的名称 (字符串) , 返回原始的图片
 * 根据图片名 (字符串) 生成圆形头像 (UIImage对象)
+* 根据URL字符串下载图片
 
 ___
 
@@ -63,17 +74,55 @@ ___
 * 是否为明天
 * 是否为今年
 
+* 获取当前时间戳
+
+* 时间戳转换为日期字符串 格式: yyyyMMdd
+* 时间戳转换为日期字符串 格式: yyyy-MM-dd
+* 时间戳转换为日期字符串 格式: yyyy-MM-dd HH:mm
+* 时间戳转换为日期字符串 格式: yyyy-MM-dd HH:mm:ss
+* 日期字符串转换为时间戳 输入的日期字符串格式: yyyyMMdd
+* 日期字符串转换为时间戳 输入的日期字符串格式: yyyy-MM-dd
+* 日期字符串转换为时间戳 输入的日期字符串格式: yyyy-MM-dd HH:mm:ss
+
 ___
 
 > UIBarButtonItem
 
 * 快速生成UIBarButtonItem类方法
 
+```objc
++ (instancetype)itemWithNilItem;
+
++ (instancetype)itemWithTarget:(id)target action:(SEL)action;
+
++ (instancetype)itemWithTitle:(NSString *)title target:(id)target action:(SEL)action;
+
++ (instancetype)itemWithImage:(NSString *)image target:(id)target action:(SEL)action;
+
++ (instancetype)itemWithNormalImage:(NSString *)normalImage target:(id)target action:(SEL)action title:(NSString *)title;
+
++ (instancetype)itemWithNormalImage:(NSString *)normalImage highlightedImage:(NSString *)highlightedImage target:(id)target action:(SEL)action title:(NSString *)title;
+```
 ___
 
 > UITabBar
 
 * 在UITabBar上添加 消息未读取 的小圆点
+
+___
+
+> UIApplication
+
+* 获取窗口当前正在显示控制器
+
+___
+
+> UIColor
+
+* 根据RGBA返回UIColor
+* 根据RGB返回UIColor
+* 根据 颜色二进制 和透明度 返回UIColor
+* 根据 颜色二进制 返回UIColor
 
 ___
 
