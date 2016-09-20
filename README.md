@@ -1,6 +1,6 @@
 ### CategoryRepository - Readme
 #### 必读: 以下内容, 无序列表后面的文字是 `分类功能的描述` , 根据分类功能加入的先后顺序排列, 下载本仓库, 直接以 `分类功能的描述` 为关键字, 全局搜索或者文件内搜索即可.
-#### 分享自用的 Category 文件, 不定期更新, 如果你觉得好用, 请点个 ★Star 谢谢.
+#### 分享自用的 Category 文件, 不定期更新
 ##### Category 文件  >>>>   详见路径 CategoryRepository/Category
 ___
 
@@ -51,11 +51,10 @@ ___
 @property (nonatomic, assign) CGFloat pp_top;
 @property (nonatomic, assign) CGFloat pp_bottom;
 
+```
+
 * 设置导航栏标题
 * 获取当前view所在的控制器
-
-
-```
 
 ___
 
