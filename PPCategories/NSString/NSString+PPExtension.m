@@ -80,7 +80,7 @@
 
 #pragma mark - Helpers
 
-- (NSString *)stringFromBytes:(unsigned char *)bytes length:(int)length
+- (NSString *)stringFromBytes:(unsigned char *)bytes length:(NSInteger)length
 {
     NSMutableString *mutableString = @"".mutableCopy;
     for (int i = 0; i < length; i++)
