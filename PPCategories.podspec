@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PPCategories"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "CategoryRepository"
   s.homepage     = "https://github.com/SimleCp/PPCategories"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
