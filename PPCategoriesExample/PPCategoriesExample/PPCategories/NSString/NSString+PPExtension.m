@@ -14,6 +14,9 @@
 
 @implementation NSString (PPExtension)
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "--allow-warnings"
+
 /** 各种加密 */
 - (NSString *)md5String
 {
@@ -80,7 +83,7 @@
 
 #pragma mark - Helpers
 
-- (NSString *)stringFromBytes:(unsigned char *)bytes length:(int)length
+- (NSString *)stringFromBytes:(unsigned char *)bytes length:(NSInteger)length
 {
     NSMutableString *mutableString = @"".mutableCopy;
     for (int i = 0; i < length; i++)
@@ -145,7 +148,7 @@
 + (NSString *)stringWithFormatTime:(NSTimeInterval)time
 {
     time += 0.05;
-    NSInteger min = time / 60;
+    NSInteger min = (NSInteger)time / 60;
     NSInteger second = (NSInteger)time % 60;
     return [NSString stringWithFormat:@"%02ld:%02ld", min, second];
 }
@@ -160,5 +163,6 @@
     return [self boundingRectWithSize:CGSizeMake(MAXFLOAT, fontSize) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil].size.width;
 }
 
+#pragma clang diagnostic pop
 
 @end
