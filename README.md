@@ -6,7 +6,7 @@ PPCategories
 [![CocoaPods](https://img.shields.io/cocoapods/l/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
 
-CategoryRepository
+分享自用的 Category 文件, 不定期更新
 
 安装
 ==============
@@ -16,12 +16,6 @@ CategoryRepository
 1. Add `pod 'PPCategories'` to your Podfile.
 2. Run `pod install` or `pod update`.
 3. Import \<PPCategories/PPCategories.h\>.
-
-必读
-==============
-
-#### 以下内容, 无序列表后面的文字是 `分类功能的描述` , 根据分类功能加入的先后顺序排列, 下载本仓库, 直接以 `分类功能的描述` 为关键字, 全局搜索或者文件内搜索即可.
-#### 分享自用的 Category 文件, 不定期更新
 
 Category预览
 ==============
@@ -156,3 +150,6 @@ ___
 许可证
 ==============
 PPCategories 使用 MIT 许可证，详情见 LICENSE 文件。
+<br>
+[LICENSE](https://github.com/SimleCp/PPCategories/blob/master/LICENSE)
+
