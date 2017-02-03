@@ -149,7 +149,4 @@ ___
 
 许可证
 ==============
-PPCategories 使用 MIT 许可证，详情见 LICENSE 文件。
-<br>
-[LICENSE](https://github.com/SimleCp/PPCategories/blob/master/LICENSE)
-
+PPCategories 使用 MIT 许可证，详情见 [LICENSE](https://github.com/SimleCp/PPCategories/blob/master/LICENSE) 文件。
