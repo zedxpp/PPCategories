@@ -42,5 +42,12 @@
     return [UIColor colorWithHexStr:string alpha:1.0];
 }
 
++ (UIColor *)colorWithPatternImageString:(NSString *)imageString
+{
+    return [UIColor colorWithPatternImage:[UIImage imageNamed:imageString]];
+}
+
+
+
 
 @end

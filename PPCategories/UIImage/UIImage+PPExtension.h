@@ -28,4 +28,10 @@
  */
 + (instancetype)imageWithURLString:(NSString *)urlString;
 
+
+/**
+ UIColor生成UIImage
+ */
++ (instancetype)imageWithColor:(UIColor *)color;
+
 @end
