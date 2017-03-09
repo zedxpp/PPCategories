@@ -9,7 +9,6 @@ PPCategories
 分享自用的 Category 文件, 不定期更新
 
 安装
-==============
 
 ## CocoaPods
 
@@ -39,8 +38,6 @@ CategoryApi预览
 [UIView.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/UIView/UIView%2BPPExtension.h)
 
 [SingleClass.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/SingleClass/Single.h)
-
-==============
 
 许可证
 ==============
