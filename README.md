@@ -10,7 +10,7 @@ PPCategories
 
 # 安装
 
-[h3]CocoaPods[/h3]
+### CocoaPods
 
 1. Add `pod 'PPCategories'` to your Podfile
 2. Run `pod install` or `pod update`
