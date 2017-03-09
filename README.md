@@ -13,9 +13,9 @@ PPCategories
 
 ## CocoaPods
 
-1. Add `pod 'PPCategories'` to your Podfile.
-2. Run `pod install` or `pod update`.
-3. Import \<PPCategories/PPCategories.h\>.
+1. Add `pod 'PPCategories'` to your Podfile
+2. Run `pod install` or `pod update`
+3. `Import \<PPCategories/PPCategories.h\>`
 
 CategoryApi预览
 ==============
@@ -39,6 +39,8 @@ CategoryApi预览
 [UIView.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/UIView/UIView%2BPPExtension.h)
 
 [SingleClass.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/SingleClass/Single.h)
+
+==============
 
 许可证
 ==============
