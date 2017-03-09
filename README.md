@@ -15,7 +15,7 @@ PPCategories
 
 1. Add `pod 'PPCategories'` to your Podfile
 2. Run `pod install` or `pod update`
-3. `Import \<PPCategories/PPCategories.h\>`
+3. #import \<PPCategories/PPCategories.h\>
 
 CategoryApi预览
 ==============
