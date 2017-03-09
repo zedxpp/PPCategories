@@ -4,7 +4,7 @@ PPCategories
 [![CocoaPods](https://img.shields.io/cocoapods/v/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
 [![CocoaPods](https://img.shields.io/cocoapods/p/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
 [![CocoaPods](https://img.shields.io/cocoapods/l/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
-[![Support](https://img.shields.io/badge/support-iOS%206%2B%20-blue.svg?style=flat)](https://www.apple.com/nl/ios/)
+[![Support](https://img.shields.io/badge/support-iOS7%2B-green.svg?style=flat)](https://www.apple.com/nl/ios/)
 
 分享自用的 Category 文件, 不定期更新
 
