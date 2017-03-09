@@ -2,7 +2,7 @@ PPCategories
 ==============
 [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
 [![CocoaPods](https://img.shields.io/cocoapods/v/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
-[![CocoaPods](https://img.shields.io/cocoapods/p/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
+[![CocoaPods](https://img.shields.io/badge/platform-iOS-green.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
 [![CocoaPods](https://img.shields.io/cocoapods/l/PPCategories.svg)](https://github.com/SimleCp/PPCategories)&nbsp;
 [![Support](https://img.shields.io/badge/support-iOS7%2B-green.svg?style=flat)](https://www.apple.com/nl/ios/)
 
