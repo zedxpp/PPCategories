@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "PPCategories-CategoryRepository"
   s.homepage     = "https://github.com/SimleCp/PPCategories"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "SimleCp" => "simlecp@gmail.com" }
+  s.author       = { "SimleCp" => "simlecp@swift520.com" }
   s.platform     = :ios, '7.0'
   s.ios.deployment_target = '7.0'
 
