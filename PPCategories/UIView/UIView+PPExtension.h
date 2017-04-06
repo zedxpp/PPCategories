@@ -27,10 +27,10 @@
 @property (nonatomic, assign) CGFloat pp_top;
 @property (nonatomic, assign) CGFloat pp_bottom;
 
-/**
- *  设置导航栏标题
- */
-+ (UIView *)viewWithNavTitle:(NSString *)text;
+///**
+// *  设置导航栏标题
+// */
+//+ (UIView *)viewWithNavTitle:(NSString *)text;
 
 /**
  *  获取当前view所在的控制器

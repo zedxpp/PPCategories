@@ -13,14 +13,14 @@
 @implementation UIView (PPExtension)
 
 #pragma mark - 类拓展
-+ (UIView *)viewWithNavTitle:(NSString *)text
-{
-    UILabel *label = [[UILabel alloc] init];
-    label.text = text;
-    label.textColor = [UIColor whiteColor];
-    [label sizeToFit];
-    return label;
-}
+//+ (UIView *)viewWithNavTitle:(NSString *)text
+//{
+//    UILabel *label = [[UILabel alloc] init];
+//    label.text = text;
+//    label.textColor = [UIColor whiteColor];
+//    [label sizeToFit];
+//    return label;
+//}
 
 - (UIViewController *)viewController {
     UIResponder *responder = [self nextResponder];

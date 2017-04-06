@@ -42,6 +42,20 @@
     return [UIColor colorWithHexStr:string alpha:1.0];
 }
 
+<<<<<<< HEAD
++ (NSString *)hexStrWithColor:(UIColor *)color {
+    CGFloat r, g, b, a;
+    BOOL bo = [color getRed:&r green:&g blue:&b alpha:&a];
+    if (bo) {
+        int rgb = (int) (r * 255.0f)<<16 | (int) (g * 255.0f)<<8 | (int) (b * 255.0f)<<0;
+        return [NSString stringWithFormat:@"#%06x", rgb].uppercaseString;
+    } else {
+        return @"";
+    }
+}
+
+
+=======
 + (UIColor *)colorWithPatternImageString:(NSString *)imageString
 {
     return [UIColor colorWithPatternImage:[UIImage imageNamed:imageString]];
@@ -49,5 +63,6 @@
 
 
 
+>>>>>>> ca39baae99ead5687d87bd8976021a32cc3cdc7d
 
 @end
