@@ -23,16 +23,11 @@
 + (UIColor *)colorWithR:(CGFloat)red g:(CGFloat)green b:(CGFloat)blue;
 
 /**
-<<<<<<< HEAD
  *  根据 颜色十六进制 和透明度 返回UIColor
-=======
- *  颜色二进制 和透明度 返回UIColor
->>>>>>> ca39baae99ead5687d87bd8976021a32cc3cdc7d
  */
 + (UIColor *)colorWithHexStr:(NSString *)string alpha:(CGFloat)alpha;
 
 /**
-<<<<<<< HEAD
  *  根据 颜色十六进制 返回UIColor
  */
 + (UIColor *)colorWithHexStr:(NSString *)string;
@@ -41,16 +36,10 @@
  *  从UIColor中获取颜色十六进制字符串 如#FFB400
  */
 + (NSString *)hexStrWithColor:(UIColor *)color;
-=======
- *  颜色二进制 返回UIColor
- */
-+ (UIColor *)colorWithHexStr:(NSString *)string;
-
 
 /**
- 图片名字, 返回颜色
+ *  图片名字, 返回颜色
  */
 + (UIColor *)colorWithPatternImageString:(NSString *)imageString;
->>>>>>> ca39baae99ead5687d87bd8976021a32cc3cdc7d
 
 @end

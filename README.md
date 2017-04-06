@@ -16,7 +16,7 @@ PPCategories
 2. Run `pod install` or `pod update`
 3. #import \<PPCategories/PPCategories.h\>
 
-CategoryAPI预览
+CategoryApi预览
 ==============
 
 [NSDate.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/NSDate/NSDate%2BPPExtension.h)
