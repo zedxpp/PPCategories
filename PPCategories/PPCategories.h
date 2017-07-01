@@ -18,6 +18,7 @@
 #import <PPCategories/UIImage+PPExtension.h>
 #import <PPCategories/UITabBar+PPBadge.h>
 #import <PPCategories/UIView+PPExtension.h>
+#import <PPCategories/UIButton+PPExtension.h>
 
 #else
 
@@ -31,5 +32,6 @@
 #import "UIImage+PPExtension.h"
 #import "UITabBar+PPBadge.h"
 #import "UIView+PPExtension.h"
+#import "UIButton+PPExtension.h"
 
 #endif

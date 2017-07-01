@@ -18,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+//    NSLog(@"%f", [@"我们一" stringWidthWithFont:[UIFont boldSystemFontOfSize:180]]);
+//    NSLog(@"%f", [@"我们一" stringWidthWithFontSize:180]);
+
 }
 
 

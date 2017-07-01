@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3282BD2E1F07331D00C3FAF0 /* UIButton+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3282BD2D1F07331D00C3FAF0 /* UIButton+PPExtension.m */; };
 		33557F8B1E1CF24300B9A2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33557F8A1E1CF24300B9A2EB /* main.m */; };
 		33557F8E1E1CF24300B9A2EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33557F8D1E1CF24300B9A2EB /* AppDelegate.m */; };
 		33557F911E1CF24300B9A2EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33557F901E1CF24300B9A2EB /* ViewController.m */; };
@@ -45,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3282BD2C1F07331D00C3FAF0 /* UIButton+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPExtension.h"; sourceTree = "<group>"; };
+		3282BD2D1F07331D00C3FAF0 /* UIButton+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPExtension.m"; sourceTree = "<group>"; };
 		33557F861E1CF24300B9A2EB /* PPCategoriesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCategoriesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33557F8A1E1CF24300B9A2EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33557F8C1E1CF24300B9A2EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3282BD2B1F07330B00C3FAF0 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				3282BD2C1F07331D00C3FAF0 /* UIButton+PPExtension.h */,
+				3282BD2D1F07331D00C3FAF0 /* UIButton+PPExtension.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
 		33557F7D1E1CF24300B9A2EB = {
 			isa = PBXGroup;
 			children = (
@@ -182,6 +194,7 @@
 				335580221E1CFF8B00B9A2EB /* UIBarButtonItem */,
 				335580251E1CFF8B00B9A2EB /* UIColor */,
 				335580281E1CFF8B00B9A2EB /* UIImage */,
+				3282BD2B1F07330B00C3FAF0 /* UIButton */,
 				3355802B1E1CFF8B00B9A2EB /* UITabBar */,
 				335580301E1CFF8B00B9A2EB /* UIView */,
 			);
@@ -425,6 +438,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3355803C1E1CFF8B00B9A2EB /* UIView+PPExtension.m in Sources */,
+				3282BD2E1F07331D00C3FAF0 /* UIButton+PPExtension.m in Sources */,
 				33557F911E1CF24300B9A2EB /* ViewController.m in Sources */,
 				335580391E1CFF8B00B9A2EB /* UIImage+PPExtension.m in Sources */,
 				33557F8E1E1CF24300B9A2EB /* AppDelegate.m in Sources */,

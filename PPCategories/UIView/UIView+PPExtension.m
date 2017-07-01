@@ -34,6 +34,18 @@
     return nil;
 }
 
+- (UITapGestureRecognizer *)addTapGestureRecognizerWithTarget:(id)target action:(SEL)action
+{
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:target action:action];
+    
+    if (!self.isUserInteractionEnabled) {
+        self.userInteractionEnabled = YES;
+    }
+    
+    [self addGestureRecognizer:tap];
+    return tap;
+}
+
 #pragma mark - 坐标自定义
 - (CGFloat)pp_x
 {

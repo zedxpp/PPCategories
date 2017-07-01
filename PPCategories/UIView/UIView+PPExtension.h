@@ -37,4 +37,10 @@
  */
 - (UIViewController *)viewController;
 
+
+/**
+ 添加点击手势
+ */
+- (UITapGestureRecognizer *)addTapGestureRecognizerWithTarget:(id)target action:(SEL)action;
+
 @end

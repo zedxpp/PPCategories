@@ -50,7 +50,7 @@
 + (NSString *)stringWithFormatTime:(NSTimeInterval)time;
 
 /**
- *  根据文字宽度和字体大小获取文字高度
+ *  根据文字宽度和字体大小(pointSize)获取文字高度 (默认字体不加粗)
  *
  *  @param textMaxW 文字最大宽度
  *  @param fontSize 字体大小
@@ -58,8 +58,23 @@
 - (CGFloat)stringHeightWithTextMaxW:(CGFloat)textMaxW fontSize:(CGFloat)fontSize;
 
 /**
- *  根据字体大小获取文字宽度
+ *  根据文字宽度和字体(UIFont)获取文字高度
+ *
+ *  @param textMaxW 文字最大宽度
+ *  @param font 字体
+ */
+
+- (CGFloat)stringHeightWithTextMaxW:(CGFloat)textMaxW font:(UIFont *)font;
+
+/**
+ *  根据字体大小(pointSize)获取文字宽度 (默认字体不加粗)
  */
 - (CGFloat)stringWidthWithFontSize:(CGFloat)fontSize;
+
+/**
+ *  根据字体(UIFont)获取文字宽度
+ */
+- (CGFloat)stringWidthWithFont:(UIFont *)font;
+
 
 @end

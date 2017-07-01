@@ -152,13 +152,25 @@
 
 - (CGFloat)stringHeightWithTextMaxW:(CGFloat)textMaxW fontSize:(CGFloat)fontSize
 {
-    return [self boundingRectWithSize:CGSizeMake(textMaxW, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil].size.height;
+    return [self stringHeightWithTextMaxW:textMaxW font:[UIFont systemFontOfSize:fontSize]];
+}
+
+- (CGFloat)stringHeightWithTextMaxW:(CGFloat)textMaxW font:(UIFont *)font
+{
+    return [self boundingRectWithSize:CGSizeMake(textMaxW, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : font} context:nil].size.height;
 }
 
 - (CGFloat)stringWidthWithFontSize:(CGFloat)fontSize
 {
-    return [self boundingRectWithSize:CGSizeMake(MAXFLOAT, fontSize) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:fontSize]} context:nil].size.width;
+    return [self stringWidthWithFont:[UIFont systemFontOfSize:fontSize]];
 }
+
+- (CGFloat)stringWidthWithFont:(UIFont *)font
+{
+    UIFont *currentFont = font;
+    return [self boundingRectWithSize:CGSizeMake(MAXFLOAT, currentFont.pointSize) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : currentFont} context:nil].size.width;
+}
+
 
 
 @end

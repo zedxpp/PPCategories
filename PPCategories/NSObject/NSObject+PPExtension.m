@@ -52,4 +52,30 @@
  */
 
 
+
+- (void)clearAllPropertyValue
+{
+    unsigned int outCount = 0;
+    Ivar *ivarList = class_copyIvarList([self class], &outCount);
+    
+    for (int i = 0; i < outCount; i++) {
+        Ivar ivar = ivarList[i];
+        const char *name = ivar_getName(ivar);
+        NSString *ivarName = [NSString stringWithCString:name encoding:NSUTF8StringEncoding];
+        id value = [self valueForKey:ivarName];
+        if ([value isKindOfClass:[NSString class]]) {
+            [self setValue:@"" forKey:ivarName];
+        } else {
+            [self setValue:@0 forKey:ivarName];
+        }
+        
+        //        PPLog(@"%@", [value class])
+        
+        //        PPLog(@"%s = %@", name, value);
+        //        NSLog(@"%d", [value isKindOfClass:[NSString class]]);
+    }
+    free(ivarList);
+}
+
+
 @end
