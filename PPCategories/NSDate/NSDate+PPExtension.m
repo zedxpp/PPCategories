@@ -175,13 +175,20 @@ NSString * const ymdhm = @"yyyy-MM-dd HH:mm";
 }
 
 #pragma mark - name
-+ (NSString *)getCurrentTimeStamp
++ (NSString *)getCurrentTimeStampMilliSecond
 {
     //    time_t time = time(NULL);
     NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[[NSDate  date] timeIntervalSince1970] * 1000];
     return timeSp;
     //    PPLog(@"%ld", );
 }
+
++ (NSString *)getCurrentTimeStampSecond
+{
+    NSString *timeSp = [NSString stringWithFormat:@"%ld", (long)[[NSDate  date] timeIntervalSince1970]];
+    return timeSp;
+}
+
 //+ (NSString *)getCurrentTimeFormatterYMdHms
 //{
 //    return [self getCurrentTimeFormatterWithDateFormat:ymdhms];

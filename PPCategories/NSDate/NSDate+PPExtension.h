@@ -39,9 +39,14 @@ UIKIT_EXTERN NSString * const ymdhms;
 UIKIT_EXTERN NSString * const ymdhm;
 
 /**
- *  获取当前时间戳
+ *  获取当前时间戳 毫秒级
  */
-+ (NSString *)getCurrentTimeStamp;
++ (NSString *)getCurrentTimeStampMilliSecond;
+
+/**
+ *  获取当前时间戳 秒级
+ */
++ (NSString *)getCurrentTimeStampSecond;
 
 /**
  *  时间戳转换为日期字符串 格式: yyyyMMdd
