@@ -12,6 +12,6 @@
 
 - (NSString *)logAllIvarAndValue;
 
-- (void)clearAllPropertyValue;
+//- (void)clearAllPropertyValue;
 
 @end
