@@ -15,4 +15,11 @@
  */
 + (instancetype)button;
 
+/**
+ 根据image和title获取默认状态下的按钮宽度
+ 
+ @return 宽度
+ */
+- (CGFloat)getButtonNormalStateWidth;
+
 @end

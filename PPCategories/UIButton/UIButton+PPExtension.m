@@ -15,5 +15,14 @@
     return [self buttonWithType:UIButtonTypeCustom];
 }
 
+- (CGFloat)getButtonNormalStateWidth
+{
+    UIImage *img = [self imageForState:UIControlStateNormal];
+    NSString *title = [self titleForState:UIControlStateNormal];
+    
+    // +1 预留1毫米间隙
+    return img.size.width + [title stringWidthWithFontSize:self.titleLabel.font.pointSize] + 1;
+}
+
 
 @end

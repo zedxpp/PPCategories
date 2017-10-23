@@ -12,6 +12,17 @@
 
 @interface UIApplication (PPExtension)
 
+
+/**
+ 获取app版本号
+ */
+- (NSString *)getAppVersion;
+
+/**
+ 获取app编译版本号
+ */
+- (NSString *)getAppBuildVersion;
+
 /**
  *  获取窗口当前正在显示控制器
  */

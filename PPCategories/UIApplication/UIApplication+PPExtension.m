@@ -12,6 +12,16 @@
 
 @implementation UIApplication (PPExtension)
 
+- (NSString *)getAppVersion
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+}
+
+- (NSString *)getAppBuildVersion
+{
+    return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
+}
+
 - (UIViewController *)currentViewController
 {
     __block UIWindow *normalWindow = self.keyWindow;

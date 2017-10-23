@@ -46,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		325446301F9D9CC500E2FF65 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
 		3282BD2C1F07331D00C3FAF0 /* UIButton+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPExtension.h"; sourceTree = "<group>"; };
 		3282BD2D1F07331D00C3FAF0 /* UIButton+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPExtension.m"; sourceTree = "<group>"; };
 		33557F861E1CF24300B9A2EB /* PPCategoriesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPCategoriesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +151,7 @@
 				33557F8D1E1CF24300B9A2EB /* AppDelegate.m */,
 				33557F8F1E1CF24300B9A2EB /* ViewController.h */,
 				33557F901E1CF24300B9A2EB /* ViewController.m */,
+				325446301F9D9CC500E2FF65 /* PrefixHeader.h */,
 				3355803D1E1D002100B9A2EB /* Ohter */,
 				33557F891E1CF24300B9A2EB /* Supporting Files */,
 			);
@@ -597,6 +599,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PPCategoriesExample/PrefixHeader.h;
 				INFOPLIST_FILE = PPCategoriesExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift520.PPCategoriesExample;
@@ -608,6 +611,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PPCategoriesExample/PrefixHeader.h;
 				INFOPLIST_FILE = PPCategoriesExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.swift520.PPCategoriesExample;
