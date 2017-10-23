@@ -12,7 +12,7 @@ PPCategories
 
 ### CocoaPods
 
-1. Add `pod 'PPCategories'` to your Podfile
+1. Add `pod 'PPCategories'` to your Podfile. If you need the latest version, Add `pod 'PPCategories',:git => 'https://github.com/SimleCp/PPCategories.git'`
 2. Run `pod install` or `pod update`
 3. #import \<PPCategories/PPCategories.h\>
 
@@ -36,8 +36,6 @@ CategoryApi预览
 [UITabBar.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/UITabBar/UITabBar%2BPPBadge.h)
 
 [UIView.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/UIView/UIView%2BPPExtension.h)
-
-[SingleClass.h](https://github.com/SimleCp/PPCategories/blob/master/PPCategories/SingleClass/Single.h)
 
 许可证
 ==============
