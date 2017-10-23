@@ -7,6 +7,7 @@
 //
 
 #import "UIButton+PPExtension.h"
+#import "NSString+PPExtension.h"
 
 @implementation UIButton (PPExtension)
 
