@@ -20,7 +20,6 @@
 		335580341E1CFF8B00B9A2EB /* NSObject+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335580181E1CFF8B00B9A2EB /* NSObject+PPExtension.m */; };
 		335580351E1CFF8B00B9A2EB /* NSString+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3355801B1E1CFF8B00B9A2EB /* NSString+PPExtension.m */; };
 		335580361E1CFF8B00B9A2EB /* UIApplication+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335580211E1CFF8B00B9A2EB /* UIApplication+PPExtension.m */; };
-		335580371E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335580241E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.m */; };
 		335580381E1CFF8B00B9A2EB /* UIColor+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 335580271E1CFF8B00B9A2EB /* UIColor+PPExtension.m */; };
 		335580391E1CFF8B00B9A2EB /* UIImage+PPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3355802A1E1CFF8B00B9A2EB /* UIImage+PPExtension.m */; };
 		3355803A1E1CFF8B00B9A2EB /* PPBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3355802D1E1CFF8B00B9A2EB /* PPBadgeView.m */; };
@@ -75,8 +74,6 @@
 		3355801E1E1CFF8B00B9A2EB /* Single.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		335580201E1CFF8B00B9A2EB /* UIApplication+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+PPExtension.h"; sourceTree = "<group>"; };
 		335580211E1CFF8B00B9A2EB /* UIApplication+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+PPExtension.m"; sourceTree = "<group>"; };
-		335580231E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+PPExtension.h"; sourceTree = "<group>"; };
-		335580241E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+PPExtension.m"; sourceTree = "<group>"; };
 		335580261E1CFF8B00B9A2EB /* UIColor+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPExtension.h"; sourceTree = "<group>"; };
 		335580271E1CFF8B00B9A2EB /* UIColor+PPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPExtension.m"; sourceTree = "<group>"; };
 		335580291E1CFF8B00B9A2EB /* UIImage+PPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PPExtension.h"; sourceTree = "<group>"; };
@@ -193,7 +190,6 @@
 				335580191E1CFF8B00B9A2EB /* NSString */,
 				3355801D1E1CFF8B00B9A2EB /* SingleClass */,
 				3355801F1E1CFF8B00B9A2EB /* UIApplication */,
-				335580221E1CFF8B00B9A2EB /* UIBarButtonItem */,
 				335580251E1CFF8B00B9A2EB /* UIColor */,
 				335580281E1CFF8B00B9A2EB /* UIImage */,
 				3282BD2B1F07330B00C3FAF0 /* UIButton */,
@@ -246,15 +242,6 @@
 				335580211E1CFF8B00B9A2EB /* UIApplication+PPExtension.m */,
 			);
 			path = UIApplication;
-			sourceTree = "<group>";
-		};
-		335580221E1CFF8B00B9A2EB /* UIBarButtonItem */ = {
-			isa = PBXGroup;
-			children = (
-				335580231E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.h */,
-				335580241E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.m */,
-			);
-			path = UIBarButtonItem;
 			sourceTree = "<group>";
 		};
 		335580251E1CFF8B00B9A2EB /* UIColor */ = {
@@ -448,7 +435,6 @@
 				335580361E1CFF8B00B9A2EB /* UIApplication+PPExtension.m in Sources */,
 				33557F8B1E1CF24300B9A2EB /* main.m in Sources */,
 				335580341E1CFF8B00B9A2EB /* NSObject+PPExtension.m in Sources */,
-				335580371E1CFF8B00B9A2EB /* UIBarButtonItem+PPExtension.m in Sources */,
 				3355803A1E1CFF8B00B9A2EB /* PPBadgeView.m in Sources */,
 				3355803B1E1CFF8B00B9A2EB /* UITabBar+PPBadge.m in Sources */,
 				335580381E1CFF8B00B9A2EB /* UIColor+PPExtension.m in Sources */,
