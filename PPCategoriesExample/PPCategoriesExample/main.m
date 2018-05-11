@@ -2,8 +2,8 @@
 //  main.m
 //  PPCategoriesExample
 //
-//  Created by SimleCp on 2017/1/4.
-//  Copyright © 2017年 swift520. All rights reserved.
+//  Created by zedxpp on 2017/1/4.
+//  Copyright © 2017年 zedxpp. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

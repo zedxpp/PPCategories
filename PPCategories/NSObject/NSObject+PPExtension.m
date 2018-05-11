@@ -2,8 +2,8 @@
 //  NSObject+PPExtension.m
 //  PPCategories
 //
-//  Created by SimleCp on 2016/10/31.
-//  Copyright © 2016年 Swift520. All rights reserved.
+//  Created by zedxpp on 2016/10/31.
+//  Copyright © 2016年 zedxpp. All rights reserved.
 //
 
 #import "NSObject+PPExtension.h"

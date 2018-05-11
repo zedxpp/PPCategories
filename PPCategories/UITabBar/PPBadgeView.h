@@ -2,8 +2,8 @@
 //  PPBadgeView.h
 //  PPCategories
 //
-//  Created by SimleCp on 16/5/26.
-//  Copyright © 2016年 Swift520. All rights reserved.
+//  Created by zedxpp on 16/5/26.
+//  Copyright © 2016年 zedxpp. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

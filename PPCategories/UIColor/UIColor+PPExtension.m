@@ -2,11 +2,11 @@
 //  UIColor+PPExtension.m
 //  PPCategories
 //
-//  Created by SimleCp.
-//  Copyright (c) 2016年 Swift520.com All rights reserved.
+//  Created by zedxpp.
+//  Copyright (c) 2016年 zedxpp.com All rights reserved.
 //
 //  GitHub地址: https://github.com/SimleCp
-//  博客地址: http://Swift520.com
+//  博客地址: http://zedxpp.com
 
 #import "UIColor+PPExtension.h"
 
