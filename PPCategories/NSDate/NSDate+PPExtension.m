@@ -124,6 +124,10 @@ NSString * const ymdhm = @"yyyy-MM-dd HH:mm";
 
 + (NSString *)convertTimeStringFromTimeStamp:(NSString *)timeStamp dateFormat:(NSString *)dateFormat
 {
+    if (!timeStamp.length) {
+        return @"";
+    }
+    
     NSTimeInterval time = [timeStamp doubleValue];
     
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
@@ -153,6 +157,10 @@ NSString * const ymdhm = @"yyyy-MM-dd HH:mm";
 
 + (NSString *)convertTimeStampFromYMdHmsStr:(NSString *)YMdHmsStr dateFormat:(NSString *)dateFormat
 {
+    if (!YMdHmsStr.length) {
+        return @"";
+    }
+    
     //    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     //    [formatter setDateFormat:dateFormat];
     //    [formatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:8 * 3600]];
